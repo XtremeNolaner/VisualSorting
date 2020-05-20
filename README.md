@@ -2,4 +2,4 @@
 
 ### Will update this soon
 
-![Image](resources\bubblesort.gif)
+![Image](https://raw.githubusercontent.com/XtremeNolaner/VisualSorting/master/resources/bubblesort.gif)
