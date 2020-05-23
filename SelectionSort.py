@@ -17,6 +17,7 @@ def init_animate():
 
 def index_gen():
     # First iteration
+    input()
     yield -1, -1
 
     for i in range(0, SAMPLES):
@@ -79,7 +80,7 @@ SPEED = 10 # in milliseconds, lower is faster
 lowest_num = SAMPLES + 1
 
 # 'Colour', ['unsorted', 'curr_index', 'sorted', 'facecolour']
-COLOURS = Colour('#eaeaea', '#ff2e63', '#252a34', '#08d9d6')
+COLOURS = Colour('#f9ed69', '#6a2c70', '#b83b5e', '#f08a5d')
 
 
 # Create the figure and the axes, figzise is the size of the window
