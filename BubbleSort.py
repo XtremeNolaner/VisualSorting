@@ -18,7 +18,6 @@ def index_gen():
     # First iteration
     yield -1, -1
 
-    input()
     for i in range(SAMPLES - 1, 0, -1):
         yield i, 0
         for j in range(0, i):
@@ -41,7 +40,7 @@ def animate(data):
 
         bars[i].set_color(COLOURS.unsorted)
         bars[i].set_edgecolor('black')
-        bars[i].set_alpha(1)
+        #bars[i].set_alpha(1)
         bars[i + 1].set_color(COLOURS.curr_index)
         bars[i + 1].set_edgecolor('black')
         bars[i + 1].set_alpha(1)
